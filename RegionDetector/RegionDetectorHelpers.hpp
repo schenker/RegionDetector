@@ -1,5 +1,5 @@
-#ifndef __RegionDetector_HELPERS_HPP__
-#define __RegionDetector_HELPERS_HPP__
+#ifndef __REGIONDETECTOR_HELPERS_HPP__
+#define __REGIONDETECTOR_HELPERS_HPP__
 
 #include "Region.hpp"
 #include <cmath>

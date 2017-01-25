@@ -1,5 +1,5 @@
-#ifndef __RegionDetector_RegionDetectorDETECTOR_HPP__
-#define __RegionDetector_RegionDetectorDETECTOR_HPP__
+#ifndef __REGIONDETECTOR_REGIONDETECTOR_HPP__
+#define __REGIONDETECTOR_REGIONDETECTOR_HPP__
 
 #include <stdint.h>
 #include <vector>

@@ -1,5 +1,5 @@
-#ifndef __RegionDetector_REGION_HPP__
-#define __RegionDetector_REGION_HPP__
+#ifndef __REGIONDETECTOR_REGION_HPP__
+#define __REGIONDETECTOR_REGION_HPP__
 
 #include <vector>
 #include <cassert>

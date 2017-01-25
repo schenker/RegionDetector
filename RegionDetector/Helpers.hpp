@@ -1,5 +1,5 @@
-#ifndef __HELPERS_HPP__
-#define __HELPERS_HPP__
+#ifndef __REGIONDETECTOR_HELPERS_HPP__
+#define __REGIONDETECTOR_HELPERS_HPP__
 
 #include <cassert>
 #include <cmath>

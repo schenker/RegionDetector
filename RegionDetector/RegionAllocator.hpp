@@ -1,5 +1,5 @@
-#ifndef _RegionDetector_REGIONALLOCATOR_HPP_
-#define _RegionDetector_REGIONALLOCATOR_HPP_
+#ifndef _REGIONDETECTOR_REGIONALLOCATOR_HPP_
+#define _REGIONDETECTOR_REGIONALLOCATOR_HPP_
 
 #include "Region.hpp"
 
