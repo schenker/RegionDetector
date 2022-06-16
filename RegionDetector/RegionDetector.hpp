@@ -44,7 +44,7 @@ namespace RegionDetector {
 			return Helpers::xyToIdx(x, y, width);
 		}
 
-		void processStack(unsigned int newPixelGreyLevel, unsigned int currentIdx, std::vector<REGION_TYPE*> &regionStack, REGION_ALLOCATOR_TYPE *regionAllocator) {
+		void processStack(unsigned int newPixelGreyLevel, std::vector<REGION_TYPE*> &regionStack, REGION_ALLOCATOR_TYPE *regionAllocator) {
 
 			Region *first = regionStack.back();
 			regionStack.pop_back();
@@ -158,7 +158,7 @@ namespace RegionDetector {
 				if (currentLevel != previousLevel) {
 					assert(currentLevel > previousLevel);
 					currentLevel = newPixelGrayLevel;
-					processStack(newPixelGrayLevel, currentIdx, componentStack, regionAllocator);
+					processStack(newPixelGrayLevel, componentStack, regionAllocator);
 				}
 			}
 			goto check_neighbors;
